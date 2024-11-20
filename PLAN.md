@@ -2,7 +2,7 @@
 
 + 19/11: document UraJS (share it in linkedin)
 + 20/11 to 21/11: build dashboard:
-    + https://www.youtube.com/watch?v=k4lHXIzCEkM
+    + https://www.youtube.com/watch?v=ddKQ8sZo_v8&t=7671s
 
 + 22/11 to 24/11: build e-learning platform:
     + https://www.youtube.com/watch?v=Big_aFLmekI
