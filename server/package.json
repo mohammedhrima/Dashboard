@@ -4,10 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "clear": "",
-    "seed": "npx tsx prisma/seed.ts",
-    "viewdb": "npx prisma studio",
     "build": "rimraf out && npx tsc",
+    "create" :"node out/createdb.js",
     "start": "npm run build && node out/server.js",
     "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon out/server.js\""
   },

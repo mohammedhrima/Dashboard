@@ -8,18 +8,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 //@ts-ignore
-import squelize from "./schema.js";
-import path from "path";
+import squelize from "./schema.js"; //@ts-ignore
+import path from "path"; //@ts-ignore
 import fs from "fs";
 import root from "./utils.js";
 const Tables = [
     "Users",
-    "Products", // Products must be seeded before tables referencing it
+    "Products",
     "Sales",
     "Purchases",
     "Expenses",
     "ExpenseSummary",
     "ExpenseByCategory",
+    "PurchaseSummary",
+    "SalesSummary"
 ];
 function cleardb() {
     return __awaiter(this, void 0, void 0, function* () {

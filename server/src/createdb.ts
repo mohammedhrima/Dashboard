@@ -1,17 +1,19 @@
 //@ts-ignore
-import squelize, { __dirname } from "./schema.js";
-import path from "path";
+import squelize, { __dirname } from "./schema.js"; //@ts-ignore
+import path from "path"; //@ts-ignore
 import fs from "fs";
 import root from "./utils.js";
 
 const Tables = [
-"Users",
-  "Products", // Products must be seeded before tables referencing it
+  "Users",
+  "Products",
   "Sales",
   "Purchases",
   "Expenses",
   "ExpenseSummary",
   "ExpenseByCategory",
+  "PurchaseSummary",
+  "SalesSummary"
 ];
 
 async function cleardb() {
