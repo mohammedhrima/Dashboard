@@ -2,7 +2,7 @@
 
 + 19/11: document UraJS (share it in linkedin)
 + 20/11 to 23/11: build dashboard:
-    + https://www.youtube.com/watch?v=ddKQ8sZo_v8&t=7671s
+    + https://www.youtube.com/watch?v=wYpCWwD1oz0&list=PLEYW3pZS6IQ_a-iYAno4VsZonrikphq8L
 
 + 25/11 to 28/11:
     + complete the compiler
