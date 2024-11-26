@@ -1,0 +1,58 @@
+@import "../../../global.css";
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  .logo {
+    flex: 1;
+    max-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img {
+      width: 40px;
+    }
+  }
+
+  .paths {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex: 5; */
+    height: 350px;
+
+    .navigate {
+      display: flex;
+      background-color: var(--white);
+      color: var(--dark);
+      border-radius: 15px;
+      padding: 10px;
+      align-items: center;
+      gap: 10px;
+      transition: background-color 0.15s ease, transform 0.15s ease;
+
+      svg {
+        background-color: var(--orange);
+        padding: 8px;
+        border-radius: 6px;
+
+        height: 28px;
+        width: 28px;
+        g {
+          fill: var(--white);
+          color: var(--white);
+        }
+      }
+
+      &:hover {
+        color: var(--white);
+        background-color: var(--orange);
+      }
+    }
+  }
+}
