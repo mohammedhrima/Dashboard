@@ -3,6 +3,7 @@ import FingerSvg from '../../../utils/svgs/Finger'
 import ShopingSvg from '../../../utils/svgs/Shoping'
 import LikeSvg from '../../../utils/svgs/Like'
 import UserSvg from '../../../utils/svgs/UserSvg'
+import "./Cards.css"
 
 function Card({ isSelected , Icon}) {
     return (

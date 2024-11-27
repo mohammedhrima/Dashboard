@@ -15,228 +15,46 @@
   }
   .dashboard-2 {
     background-color: rgb(243, 137, 137);
-    /* flex: 3; */
     display: flex;
-    /* gap: 10px; */
-
-    .cards {
-      padding: 15px;
-      flex: 1;
-      display: flex;
-      gap: 15px;
-      /* background-color: rgb(25, 0, 255); */
-      .left,
-      .right {
-        gap: 15px;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        .card {
-          cursor: pointer;
-          /* width: 200px; */
-          /* height: 130px; */
-          border-radius: 12px;
-          background-color: var(--gray-800);
-          color: var(--white);
-          display: flex;
-          flex-direction: column;
-
-          .up {
-            flex: 1;
-            display: flex;
-            /* background-color: aqua; */
-            .icon {
-              /* flex: 1; */
-              margin-top: 12px;
-              margin-left: 12px;
-              /* display: flex; */
-              justify-content: center;
-              align-items: center;
-              .img {
-                border-radius: 50%;
-                /* border: 1px solid black; */
-                width: 45px;
-                height: 45px;
-                background-color: var(--white);
-              }
-              /* svg{
-                    height: 60px;
-                    width: 60px;
-                    /* flex: 1; */
-              /* margin: 5px 10px; */
-              /* padding: 17px; */
-              /* } */
-            }
-            div {
-              flex: 1;
-            }
-          }
-          .down {
-            padding: 10px 10px;
-            flex: 1;
-            display: flex;
-            /* background-color: rgb(55, 0, 255); */
-            .left {
-              flex: 1;
-            }
-            .right {
-              flex: 1;
-              text-align: right;
-            }
-          }
-          &:hover {
-            background-color: var(--orange);
-          }
-        }
-        .selected {
-          background-color: var(--orange);
-        }
-      }
-    }
-    .reviews {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      background-color: aqua;
-      border-radius: 15px;
-      padding: 15px;
-      margin: 15px;
-      /* gap: 25px; */
-      h3 {
-        font-size: medium;
-      }
-      .reviews-1 {
-        flex: 1;
-        display: flex;
-        align-items: center;
-      }
-      .reviews-2 {
-        flex: 2;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        .bar {
-          display: flex;
-          flex-direction: column;
-          gap: 2px;
-          h4 {
-            font-size: 15px;
-          }
-        }
-      }
-      .reviews-3 {
-        flex: 1;
-        display: flex;
-        gap: 30px;
-
-        .reviews-3-1 {
-          flex: 2;
-          p {
-            font-size: 14px;
-            color: var(--gray-600);
-          }
-        }
-
-        .reviews-3-2 {
-          flex: 1;
-          button {
-            width: 100%;
-            height: 100%;
-            color: var(--white);
-            background-color: var(--gray-dark);
-            border-radius: 15px;
-            &:hover {
-              /* color: var(--gray-dark); */
-              background-color: var(--orange);
-            }
-          }
-        }
-      }
-
-      .progress {
-        height: 5px;
-        background-color: var(--gray-200);
-      }
-
-      .progress-bar {
-        width: 50%;
-        height: 100%;
-        background: var(--orange);
-      }
-    }
   }
   .dashboard-3 {
     background-color: rgb(137, 243, 169);
     flex: 1;
     display: flex;
 
-    .projects {
-      flex: 2;
-      background-color: rgb(64, 220, 75);
-      padding: 10px;
+    .orders-over-view {
+      flex: 1;
       display: flex;
       flex-direction: column;
+      background-color: rgb(26, 108, 180);
+      padding: 10px;
 
-      .title {
+      .head {
         flex: 1;
+        p {
+          color: var(--gray);
+        }
       }
-      .table {
-        flex: 6;
-
-        table {
-          font-family: arial, sans-serif;
-          border-collapse: collapse;
-          width: 100%;
-          height: 100%;
-          svg {
-            width: 50px;
-            height: 50px;
-          }
-          tr:first-child {
-            td {
-              color: var(--gray-400);
-              font-weight: bold;
-              font-size: 14px;
-            }
-          }
-          tr {
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #dddddd;
+      .body {
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+        .card {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          .icon {
+            flex: 1;
             svg {
-              flex: 1;
-            }
-            td {
-              flex: 10;
+              width: 20px;
+              height: 20px;
             }
           }
-          td,
-          th {
-            text-align: left;
-            padding: 8px;
-          }
-
-          .progress {
-            height: 5px;
-            background-color: var(--gray-200);
-          }
-
-          .progress-bar {
-            width: 50%;
-            height: 100%;
-            background: var(--blue);
-          }
-          .done {
-            background: var(--green);
-            /* border-radius: 50%; */
+          .text {
+            flex: 15;
           }
         }
       }
-    }
-    .orders {
-      flex: 1;
-      background-color: rgb(26, 108, 180);
-      padding: 10px;
     }
   }
   .dashboard-4 {

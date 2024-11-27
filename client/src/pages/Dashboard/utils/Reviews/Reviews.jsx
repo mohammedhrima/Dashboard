@@ -1,4 +1,5 @@
 import React from "react";
+import "./Reviews.css"
 
 function Bar({ text, perecentage }) {
   return (

@@ -1,0 +1,74 @@
+#dashboard > .dashboard-2 > .cards {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  /* background-color: rgb(25, 0, 255); */
+  .left,
+  .right {
+    gap: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .card {
+      cursor: pointer;
+      /* width: 200px; */
+      /* height: 130px; */
+      border-radius: 12px;
+      background-color: var(--gray-800);
+      color: var(--white);
+      display: flex;
+      flex-direction: column;
+
+      .up {
+        flex: 1;
+        display: flex;
+        /* background-color: aqua; */
+        .icon {
+          /* flex: 1; */
+          margin-top: 12px;
+          margin-left: 12px;
+          /* display: flex; */
+          justify-content: center;
+          align-items: center;
+          .img {
+            border-radius: 50%;
+            /* border: 1px solid black; */
+            width: 45px;
+            height: 45px;
+            background-color: var(--white);
+          }
+          /* svg{
+                  height: 60px;
+                  width: 60px;
+                  /* flex: 1; */
+          /* margin: 5px 10px; */
+          /* padding: 17px; */
+          /* } */
+        }
+        div {
+          flex: 1;
+        }
+      }
+      .down {
+        padding: 10px 10px;
+        flex: 1;
+        display: flex;
+        /* background-color: rgb(55, 0, 255); */
+        .left {
+          flex: 1;
+        }
+        .right {
+          flex: 1;
+          text-align: right;
+        }
+      }
+      &:hover {
+        background-color: var(--orange);
+      }
+    }
+    .selected {
+      background-color: var(--orange);
+    }
+  }
+}

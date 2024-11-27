@@ -4,6 +4,7 @@ import Slack from '../../../utils/svgs/Slack'
 import Spotify from '../../../utils/svgs/Spotify'
 import Atlassian from '../../../utils/svgs/Atlassian'
 import Jira from '../../../utils/svgs/Jira'
+import "./Projects.css"
 
 function Case({ Icon, task, budget, completion }) {
   return (

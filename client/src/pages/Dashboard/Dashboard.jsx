@@ -3,7 +3,7 @@ import "./Dashboard.css";
 import Reviews from "./utils/Reviews/Reviews";
 import Cards from "./utils/Cards/Cards";
 import Projects from "./utils/Projects/Projects";
-import Orders from "./utils/OrdersOverview/OrdersOverview";
+import OrdersOverview from "./utils/OrdersOverview/OrdersOverview";
 
 function Dashboard() {
   return (
@@ -19,7 +19,7 @@ function Dashboard() {
       </div>
       <div className="dashboard-3">
         <Projects/>
-        <Orders/>
+        <OrdersOverview/>
       </div>
       <div className="dashboard-4"></div>
     </div>

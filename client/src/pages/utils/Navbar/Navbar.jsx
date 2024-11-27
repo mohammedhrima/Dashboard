@@ -7,7 +7,7 @@ import BillingSvg from "../svgs/BillingSvg";
 import SigninSvg from "../svgs/SignIn";
 import SignupSvg from "../svgs/SignUp";
 import ProfileSvg from "../svgs/Profile";
-import Navigator from "./utils/Navigator/Navigator";
+import Navigator from "./Navigator/Navigator";
 
 function Navbar() {
   return (
