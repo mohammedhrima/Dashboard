@@ -1,11 +1,9 @@
 import React from "react";
 import "./Dashboard.css";
-import Card from "./utils/Card/Card";
-import FingerSvg from "../utils/svgs/finger";
-import UserSvg from "../utils/svgs/userSvg";
-import ShopingSvg from "../utils/svgs/shoping";
-import LikeSvg from "../utils/svgs/like";
 import Reviews from "./utils/Reviews/Reviews";
+import Cards from "./utils/Cards/Cards";
+import Projects from "./utils/Projects/Projects";
+import Orders from "./utils/OrdersOverview/OrdersOverview";
 
 function Dashboard() {
   return (
@@ -16,19 +14,13 @@ function Dashboard() {
         </div>
       </div>
       <div className="dashboard-2">
-        <div className="cards">
-          <div className="left">
-            <Card isSelected={false} Icon={UserSvg} />
-            <Card isSelected={true} Icon={FingerSvg} />
-          </div>
-          <div className="right">
-            <Card isSelected={false} Icon={ShopingSvg} />
-            <Card isSelected={false} Icon={LikeSvg} />
-          </div>
-        </div>
+        <Cards/>
         <Reviews />
       </div>
-      <div className="dashboard-3"></div>
+      <div className="dashboard-3">
+        <Projects/>
+        <Orders/>
+      </div>
       <div className="dashboard-4"></div>
     </div>
   );

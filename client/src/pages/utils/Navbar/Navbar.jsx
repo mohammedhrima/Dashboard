@@ -1,12 +1,12 @@
 import "./Navbar.css";
 import React from "react";
 import dark_logo from "assets/logo/dark.png";
-import DashboardSvg from "../svgs/dashboardSvg";
-import TablesSvg from "../svgs/tablesSvg";
-import BillingSvg from "../svgs/billingSvg";
-import SigninSvg from "../svgs/signIn";
-import SignupSvg from "../svgs/signUp";
-import ProfileSvg from "../svgs/profile";
+import DashboardSvg from "../svgs/DashboardSvg";
+import TablesSvg from "../svgs/TablesSvg";
+import BillingSvg from "../svgs/BillingSvg";
+import SigninSvg from "../svgs/SignIn";
+import SignupSvg from "../svgs/SignUp";
+import ProfileSvg from "../svgs/Profile";
 import Navigator from "./utils/Navigator/Navigator";
 
 function Navbar() {
